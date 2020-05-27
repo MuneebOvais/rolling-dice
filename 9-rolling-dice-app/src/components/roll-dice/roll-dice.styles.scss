@@ -1,0 +1,26 @@
+.roll-dice{
+    width: 25%;
+    padding: 0px 35%;
+
+    .dice{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .button{
+        margin-top: 70px;
+        background-color: black;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 0 30% 0 30%;
+        font-size: 15px;
+        line-height: 50px;
+        cursor: pointer;
+        border-radius: 8px;
+
+        &:hover{
+            background-color: #4c158f 
+        }
+    }
+}
